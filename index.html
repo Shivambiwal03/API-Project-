@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200">
+
+    <header>
+        <nav class="h-[10vh] w-[100vw] flex justify-center items-center bg-blue-400 text-white">
+            <div class="h-[10vh] w-[20%] flex justify-center items-center">
+                <h1 class="text-2xl">Google</h1>
+            </div>
+            <div class="h-[10vh] w-[60%]">
+                <ul class="h-[10vh] w-[100%] flex justify-center items-center gap-10">
+                    <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">Home</li>
+                    <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">Services</li>
+                    <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">About</li>
+                    <li class="hover:bg-white hover:text-black p-2 rounded-md hover:cursor-pointer">Contact</li>
+                </ul>
+            </div>
+            <div class="h-[10vh] w-[20%] flex justify-center items-center gap-10">
+                <span><i class="fa-solid fa-user fa-2x"></i></span>
+                <span><i class="fa-solid fa-gear fa-2x"></i></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="h-[50vh] w-[100vw] border flex justify-center items-center flex-col">
+            <h1 class="text-7xl my-6 mr-10 font-bold"><span class="text-blue-800">G</span><span class="text-red-800">o</span><span class="text-yellow-800">o</span><span class="text-blue-800">g</span><span class="text-green-800">l</span><span class="text-red-800">e</span></h1>
+            <div>
+                <input class="p-2 bg-white text-black rounded-md" placeholder="search..." type="text" name=""
+                    id="userSearch">
+                <button class="text-xl m-2"><i class="fa-solid fa-magnifying-glass" id="searchBtn"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div id="result">
+
+        </div>
+    </section>
+
+
+
+
+    <script src="https://kit.fontawesome.com/6ec0e8fcff.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
